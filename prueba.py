@@ -49,6 +49,7 @@ def nuevaPalabra(vocabNP):
 
 # Create the window
 window = sg.Window("Vocabulario", layout)
+window.set_icon('images/panda.ico')
 
 # Create an event loop
 while True:
